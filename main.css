@@ -1,0 +1,42 @@
+/* CSS Document */
+body{background-image: url(PICS/background.jpg);
+     background-position:center;
+     font-family: "Bernard MT Condensed";
+	 max-width: 1800px;
+	 }
+ul {
+	caret-color: #FFCC00;
+	align: center;
+	list-style-type: none;
+	display: inline-flex;
+	text-align: justify;
+	max-height: available;
+	max-width: 1550px;
+}
+ul li{ position: relative;
+       padding:inherit;
+	   width:300px;
+	   height:auto;
+	   }
+ul li button{ background-color: #CCCCCC;
+              border:dashed;
+			  border-collapse: inherit;
+			  padding: unset;
+			  text-align:center;
+			  font-size: 28px;
+			  margin:2px  2px;
+			  border-radius:12px;  
+              }
+ul li button a{ color: #003300;
+                text-decoration:none;
+				text-align:center;
+				font-family:"Benard MT condensed";
+				}
+ul li button:hover{color:#FFCC00;}
+ul li a{ text-decoration:none;
+         color: #003300;
+		 text-align:center;
+		 font-size: 22px;}
+ul li a:hover{color: #FFCC00;}
+form{background-color:#CCCCCC;
+}
